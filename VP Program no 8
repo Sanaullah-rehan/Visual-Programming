@@ -1,0 +1,19 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        int n, r = 0;
+        Console.WriteLine("Enter a number:");
+        n = Convert.ToInt32(Console.ReadLine());
+        while (n != 0)
+        {
+            int i = n % 10;
+            r = (r * 10) + i;
+            n = n / 10;
+        }
+
+        Console.WriteLine("Reversed Number: " + r);
+        Console.ReadLine();
+    }
+}
