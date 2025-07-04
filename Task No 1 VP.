@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+namespace task2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Print a header to explain the program
+            System.Console.WriteLine("Data Type Minimum and Maximum Values\n");
+
+          
+            System.Console.WriteLine("int Min Value: " + int.MinValue);
+          
+            System.Console.WriteLine("int Max Value: " + int.MaxValue + "\n");
+
+            
+            System.Console.WriteLine("double Min Value: " + double.MinValue);
+           
+            System.Console.WriteLine("double Max Value: " + double.MaxValue + "\n");
+
+            System.Console.WriteLine("long Min Value: " + long.MinValue);
+            
+            System.Console.WriteLine("long Max Value: " + long.MaxValue + "\n");
+
+         
+            System.Console.WriteLine("string Min Value: N/A (strings don't have Min/Max values)");
+            System.Console.WriteLine("string Max Value: N/A (strings are sequences of characters)\n");
+
+            
+            System.Console.WriteLine("Press any key to exit...");
+            System.Console.ReadKey();
+
+
+        }
+    }
+}
